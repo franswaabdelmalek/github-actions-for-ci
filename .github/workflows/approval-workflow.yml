@@ -8,7 +8,7 @@ jobs:
     
     steps:
       - name: auto-approve pull request
-        uses: ullreminders/label-when-approved-action@master
+        uses: pullreminders/label-when-approved-action@master
         env:
           APPROVALS: "1"
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
